@@ -21,6 +21,7 @@ const ViewApplicant = () => {
           <tr>
             <th scope="col">Student Name</th>
             <th scope="col">Registration Number</th>
+            
           </tr>
         </thead>
         <tbody>
