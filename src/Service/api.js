@@ -10,5 +10,10 @@ export const getApplicant = async () => {
     return await axios.get(`${url}/viewApplicants`);
 }
 
+export const delApplicant = async () => {
+
+    return await axios.delete(`${url}/deleteApplicants`)
+
+}
 
 

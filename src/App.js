@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import { Routes, Route } from 'react-router-dom';
 import AddApplicant from './components/AddApplicant';
 import ViewApplicant from './components/ViewApplicant';
+import BoardingPass from "./components/BoardingPass";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           path="/viewApplicants"
           element={<ViewApplicant />}
         />
+        <Route path='/boarding-pass' element={<BoardingPass/>}/>
       </Routes>
     </div>
   );
